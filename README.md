@@ -41,7 +41,7 @@ The server-side processing involves several Python scripts to handle student inp
 5. `train.py`: Manages the training and testing of machine learning models for typing pattern authentication.
 6. `3model.py`: Implements machine learning for typing pattern authentication.
 
-#[3] Usage Instructions 
+# [3] Usage Instructions 
 
 1. Run the provided Python scripts on the server, focusing on `sign-in.py`, `decryption.py`, `CheatingDetectionAndConnection.py`, and `train.py`.
 2. Ensure the correct file structure is maintained on the server for proper functioning.

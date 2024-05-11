@@ -53,8 +53,12 @@ The server-side processing involves several Python scripts to handle student inp
 The GUI component, implemented using the Python Tkinter library, provides an intuitive interface for instructors to monitor student activities during exams. Simply install the Tkinter library and upload the provided code to the instructor interface. Input the FTP server details to begin monitoring student activities effectively.
 
 # [5] File Structure
+- The instructor_GUI.py should be run from instructor's device.
+- The Server_files should be put on a running FTP server.
+- The Arduino_IDE_Project should be uploaded into the uController using Arduino IDE.
 
-The image above illustrates the required file structure on the server for the system to operate seamlessly.
+![File structure](https://github.com/Abdullah-Mahran1/anti-cheating-keylogger-sdp/assets/62305013/45607428-9fb2-4bc0-bdf7-d5f98fcedf27)
+The above image illustrates the required file structure on the server for the system to operate seamlessly.
 The server code is expecting to have a folder called "permenant" that contains training_data.h5, and 3model.py. It also assumes that if a student signed-in with student_id (=2032145 for example) as a pre-registered stuednt, then it's expected that we find a folder with the name of '2032145' containing model.keras, studentKeyStrocks.txt, and other files.
 
 # [6] Requirements

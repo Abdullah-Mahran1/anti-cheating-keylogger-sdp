@@ -58,6 +58,7 @@ The GUI component, implemented using the Python Tkinter library, provides an int
 - The Arduino_IDE_Project should be uploaded into the uController using Arduino IDE.
 
 ![File structure](https://github.com/Abdullah-Mahran1/anti-cheating-keylogger-sdp/assets/62305013/45607428-9fb2-4bc0-bdf7-d5f98fcedf27)
+
 The above image illustrates the required file structure on the server for the system to operate seamlessly.
 The server code is expecting to have a folder called "permenant" that contains training_data.h5, and 3model.py. It also assumes that if a student signed-in with student_id (=2032145 for example) as a pre-registered stuednt, then it's expected that we find a folder with the name of '2032145' containing model.keras, studentKeyStrocks.txt, and other files.
 

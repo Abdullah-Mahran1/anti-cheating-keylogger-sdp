@@ -3,11 +3,17 @@
 Our project is a  micro-controller based keylogger that runs on arduino R4 WiFi to prevent cheating in computer-based exams. It records keystrokes and sends them to an FTP server that analyzes them for cheating keywords and for analyzing the typing pattern using ML, it also has a GUI to communicate the results to the instructor
 The following are the topics covered in this readme.txt file:
 [1] Keylogger setup
+
 [2] Server-side processing
+
 [3] Usage Instructions
+
 [4] Graphical User Interface (GUI)
+
 [5] File Structure
+
 [6] Requirements
+
 [7] Notes
 
 

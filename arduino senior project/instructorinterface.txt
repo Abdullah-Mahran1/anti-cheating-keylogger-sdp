@@ -1,0 +1,6 @@
+202001805, disconnected, 0%
+202001806, disconnected, 0%
+201804181, disconnected, 0%
+201906710, disconnected, 0%
+201912079, disconnected, 0%
+202001804, connected, 0%
